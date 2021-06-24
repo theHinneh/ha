@@ -1,0 +1,14 @@
+{
+  "name": "people-counter-server",
+  "version": "1.0.0",
+  "description": "Node server to support api calls from the people counter UI.",
+  "main": "./server.js",
+  "scripts": {
+    "start": "node ./node-server/server.js"
+  },
+  "author": "",
+  "dependencies": {
+    "mosca": "^2.5.2",
+    "uuid4": "^1.0.0"
+  }
+}
